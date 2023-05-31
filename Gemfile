@@ -7,7 +7,9 @@ ruby "3.2.1"
 gem "rails", "~> 7.0.5"
 
 gem "wash_out"
-
+gem "graphql-client"
+gem "dotenv-rails", groups: [:development, :test]
+gem "guard"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
